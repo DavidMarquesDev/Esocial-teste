@@ -83,4 +83,5 @@ Mesmo que essa vaga não seja preenchida por mim gostaria de uma oportunidade em
 
 Atualmente estou há quase 8 anos na mesma empresa que em empregou como estagiário. Sou esforçado e dedicado em aprender e a vestir a camisa da empresa.
 Desse já agradeço a oportunidade e espero boas notícias em um futuro próximo. 
+
 Obrigado!!!
