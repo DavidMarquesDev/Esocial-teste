@@ -5,40 +5,63 @@ Esocial Brasil Comercial (Backend Challenge)
 Recursos utilizados
 
 Laravel
+
 vue
+
 Npm
+
 Dependências locais para executar a API
+
 Composer
+
 Bootstrap
+
 MySQL
 
+
 Ambiente de desenvolvimento
+
 Para executar o ambiente de desenvolvimento clone o projeto, execute os comandos abaixo raiz do projeto:
 
 Instale a versão do php 7.4 acima
+
 Instale o MySQL
+
 Instale o composer via linha de comando (terminal) do seu Ide exemplo (PhpStorm) - Composer install
+
 Abre o projeto no seu Ide e clica em package.json -  deverá pedir para instalar o npm
+
 Instale o npm pelo comando npm install
 
+
 Testes
+
 Para executar os testes, execute o comando abaixo na raiz do projeto:
 
 Pegue o arquivo .env.example copie pra mesma pasta com o nome .env e faca as seguintes alterações:
+
 DB_CONNECTION=mysql
+
 DB_HOST=127.0.0.1
+
 DB_PORT=3306
+
 DB_DATABASE=nome do seu banco de dados
+
 DB_USERNAME=seu usuário. Por padrão root
+
 DB_PASSWORD=sua senha
 
 Rode o comando - php artisan key:generate
+
 No projeto. env vai gerar u chave para o cmapo APP_KEY=
 
 De o comando php artisan migrate para criar aa tabela que será usado no projeto. 
 
 A variável do projeto. evn tem um campo chamado APP_NAME=, de o nom de Contatos. exmeplo: APP_NAME=Contatos
+
 Rode o comando, php artisan serve para dar início a execução do projeto no navegador 
+
 Acesse http://localhost:8000/
 
 Uma vez acessando o localhost verá que a página inicial será uma página onde será listado os contatos. Ao clicar em nova mensagem você será levado para uma tela onde você ira informar os dados pessoais, anexar um arquivo de até 500kb, clica em adicionar. Os seus dados serão gravados no banco e o navegador voltara tela inicial com a listagem do que você acabou de adicionar.
