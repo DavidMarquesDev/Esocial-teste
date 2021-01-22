@@ -1,7 +1,9 @@
 README.md
 
 Esocial Brasil Comercial (Backend Challenge)
+
 Recursos utilizados
+
 Laravel
 vue
 Npm
